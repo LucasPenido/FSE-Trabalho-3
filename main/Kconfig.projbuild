@@ -1,0 +1,29 @@
+menu "Configuração do Wifi Configuration"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "ssid"
+        help
+            Nome da rede Wifi.
+
+    config ESP_WIFI_PASSWORD
+        string "Senha do Wifi"
+        default "minha_senha"
+        help
+            Senha do WiFi (WPA or WPA2).
+endmenu
+
+menu "Configuração das Chaves das APIs"
+
+    config KEY_IPSTACK
+        string "Chave Ipstack"
+        default ""
+        help
+            Chave da API da Ipstack.
+    
+    config KEY_OPENWEATHER
+        string "Chave Open Weather"
+        default ""
+        help
+            Chave da API da Open Weather.
+endmenu
