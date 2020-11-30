@@ -121,11 +121,11 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
-# Configuração do Wifi Configuration
+# Configuração do Wifi
 #
 CONFIG_ESP_WIFI_SSID="ssid"
 CONFIG_ESP_WIFI_PASSWORD="minha_senha"
-# end of Configuração do Wifi Configuration
+# end of Configuração do Wifi
 
 #
 # Configuração das Chaves das APIs
